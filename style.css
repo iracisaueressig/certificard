@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap");
+
+body {
+  background: url(https://i.pinimg.com/originals/10/69/a7/1069a7113c399a9a9ca3185769c59134.gif);
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+}
+
+.perfil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.espacoCabecalho {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  margin-top: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+  margin-top: 13px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-weight: 200;
+  font-size: 18px;
+  padding: 8px 16px;
+
+  backgraund: black;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  margin-top: 40px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  color: black;
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100px;
+}
+
+.projetos-item {
+  list-style-type: number;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 35px;
+  width: 800px !important;
+  margin-top: 20px;
+}
+
+.projetos-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.dark .projetos {
+  background: #333439;
+}
+
+.dark .projetos-titulo {
+  color: white;
+}
+
+.dark .projetos-item a {
+  color: white;
+}
+
+.dark .tema button {
+  background: #333439;
+  color: white;
+  border: 2px solid white;
+}
